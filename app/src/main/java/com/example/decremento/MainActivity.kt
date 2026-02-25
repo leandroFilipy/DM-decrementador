@@ -59,6 +59,9 @@ fun decrementador(modifier: Modifier = Modifier){
         }){
             Text(text = "decrementar")
         }
+        Button(onClick = { valor = 0 }) {
+            Text(text = "resetar")
+        }
     }
 
 }
